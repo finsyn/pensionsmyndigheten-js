@@ -13,6 +13,7 @@
     "iconv-lite": "^0.4.24",
     "node-fetch": "^2.5.0",
     "stream-transform": "^2.0.0",
+    "timezone": "^1.0.22",
     "xlsx": "^0.14.3"
   },
   "devDependencies": {
