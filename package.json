@@ -1,0 +1,38 @@
+{
+  "name": "pensionsmyndigheten-ppm",
+  "version": "0.0.0",
+  "description": "Reports data from PensionsMyndigheten",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "tap src/**/*.spec.js"
+  },
+  "author": "tor@finsyn.se",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/datastore": "^3.1.2",
+    "csv-parse": "^4.4.1",
+    "finsyn-pubsub": "^0.5.2",
+    "iconv-lite": "^0.4.24",
+    "node-fetch": "^2.5.0",
+    "stream-transform": "^2.0.0",
+    "xlsx": "^0.14.3"
+  },
+  "devDependencies": {
+    "tap": "^13.1.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/finsyn/pensionsmyndigheten-js.git"
+  },
+  "keywords": [
+    "pensionsmyndigheten",
+    "ppm",
+    "swedish-funds",
+    "fondddata",
+    "fonder"
+  ],
+  "bugs": {
+    "url": "https://github.com/finsyn/pensionsmyndigheten-js/issues"
+  },
+  "homepage": "https://github.com/finsyn/pensionsmyndigheten-js#readme"
+}
