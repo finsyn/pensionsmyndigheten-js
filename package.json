@@ -9,9 +9,7 @@
   "author": "tor@finsyn.se",
   "license": "MIT",
   "dependencies": {
-    "@google-cloud/datastore": "^3.1.2",
     "csv-parse": "^4.4.1",
-    "finsyn-pubsub": "^0.5.2",
     "iconv-lite": "^0.4.24",
     "node-fetch": "^2.5.0",
     "stream-transform": "^2.0.0",
