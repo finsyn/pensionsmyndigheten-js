@@ -17,7 +17,7 @@ const getProfiles = async function () {
 }
 
 const getProfilesExt = async function () {
-  const response = await fetch(urls.profiles)
+  const response = await fetch(urls.profilesExt)
   const data = await response.buffer()
   return parseProfilesExt(data)
 }
