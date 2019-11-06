@@ -1,6 +1,6 @@
 {
   "name": "pensionsmyndigheten-ppm",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Reports data from PensionsMyndigheten",
   "main": "src/index.js",
   "scripts": {
