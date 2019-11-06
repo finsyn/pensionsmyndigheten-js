@@ -4,7 +4,8 @@
   "description": "Reports data from PensionsMyndigheten",
   "main": "src/index.js",
   "scripts": {
-    "test": "tap src/**/*.spec.js"
+    "test": "tap src/**/*.spec.js",
+    "demo-quotes": "node bin/main.js"
   },
   "author": "tor@finsyn.se",
   "license": "MIT",
@@ -12,12 +13,14 @@
     "csv-parse": "^4.4.1",
     "iconv-lite": "^0.4.24",
     "node-fetch": "^2.5.0",
+    "ramda": "^0.26.1",
     "stream-transform": "^2.0.0",
     "timezone": "^1.0.22",
     "xlsx": "^0.15.1"
   },
   "devDependencies": {
-    "tap": "^13.1.9"
+    "tap": "^13.1.9",
+    "yargs": "^14.2.0"
   },
   "repository": {
     "type": "git",

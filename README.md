@@ -24,5 +24,13 @@ getQuotes()
 // ]
 ```
 
+## Command line usage
+
+```bash
+git clone git@github.com:finsyn/pensionsmyndigheten-js.git
+cd pensionsmyndigheten-js
+./bin/demo --help
+```
+
 ## Contributing
 There are some tests inplace using mock-data. You can run the test suite with `npm test` to verify they go through.
